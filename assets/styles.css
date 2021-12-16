@@ -1,49 +1,57 @@
 .btn-login {
-    display: inline-block;
-    font-size: 17px;
-    font-weight: 400;
-    background: #fdd048;
-    padding: 0px 2px 0px 2px;
-    transition: color .2s, background .2s;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 400;
+  background: #fdd048;
+  padding: 0px 2px 0px 2px;
+  transition: color 0.2s, background 0.2s;
 }
 .btn-login:hover {
-    color: #fff;
-    background: #25bb52;
+  color: #fff;
+  background: #25bb52;
 }
 
-.btn{
-    display: inline-block;
-    border-radius: none;
-    font-size: 30px;
-    font-weight: 400;
-    background: #fdd048;
-    /* padding: 0px 2px 0px 2px; */
-    transition: color .2s, background .2s;
-    
-    
-
+.btn {
+  display: inline-block;
+  border-radius: none;
+  font-size: 30px;
+  font-weight: 400;
+  background: #fdd048;
+  /* padding: 0px 2px 0px 2px; */
+  transition: color 0.2s, background 0.2s;
 }
 .btn:hover {
-    color: #fff;
-    background: #307e88;
+  color: #fff;
+  background: #307e88;
 }
-.link{
-    padding: 0 0 0 17rem;
-    
+.link {
+  padding: 0 0 0 17rem;
 }
-.Bg-btn{
-    color: #fdd048;
-    /* display: inline-block; */
-     
-    border: #ffffff 1px dotted;
-    font-size: 20px;
-    font-weight: 400;
-    /* background: #fdd048; */
-    padding: 0px 5px 0px 2px;
-    transition: color .2s, background .2s;
+.Bg-btn {
+  color: #fdd048;
+  /* display: inline-block; */
 
+  border: #ffffff 1px dotted;
+  font-size: 20px;
+  font-weight: 400;
+  /* background: #fdd048; */
+  padding: 0px 5px 0px 2px;
+  transition: color 0.2s, background 0.2s;
 }
 .Bg-btn:hover {
-    color: #fff;
-    background: #307e88;
+  color: #fff;
+  background: #307e88;
+}
+
+.btnMitad {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 400;
+  background: #fdd048;
+  padding: 0px 2px 0px 2px;
+  transition: color 0.2s, background 0.2s;
+}
+.btnMitad:hover {
+  color: #fff;
+  background: #1c78c4;
 }
