@@ -10,7 +10,19 @@
   color: #fff;
   background: #25bb52;
 }
-
+.btn-send {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 400;
+    background: #fdd048;
+    color: black;
+    padding: 0px 2px 0px 2px;
+    transition: color 0.2s, background 0.2s;
+  }
+  .btn-send:hover {
+    color: #fff;
+    background: #25bb52;
+  }
 .btn {
   display: inline-block;
   border-radius: none;
