@@ -34,16 +34,6 @@
         "
       >
         <div class="container-fluid px-5">
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
-            <div class="bg-image">
-              <img
-                src="assets/img/Logo.png"
-                height="40"
-                alt="MDB Logo"
-                loading="lazy"
-              />
-            </div>
-          </a>
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button
             class="navbar-toggler"
@@ -56,11 +46,20 @@
           >
             <i class="fas fa-bars"></i>
           </button>
-          <div
-            class="collapse navbar-collapse d-flex justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav px-5">
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="#">
+              <div class="bg-image">
+                <img
+                  src="assets/img/Logo.png"
+                  height="40"
+                  alt="MDB Logo"
+                  loading="lazy"
+                />
+              </div>
+            </a>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
                   >Inicio</a
@@ -88,7 +87,7 @@
       </nav>
     </nav>
     <!-- ------seccion banner---------- -->
-    <section >
+    <section>
       <!-- Background image -->
       <div
         class="bg-image d-flex justify-content-center align-items-center"
@@ -100,8 +99,10 @@
       <!-- Background image -->
     </section>
 
+
+
     <!-- seccion banner dividido------ -->
-    <section class="d-flex justify-content-between">
+    <section class="d-flex flex-wrap justify-content-between">
       <div class="card col-6">
         <div class="bg-primary h-100 d-inline-block">
           <h2 class="px-5 text-light">Esta es mi Pagina Final</h2>
@@ -247,19 +248,16 @@
     <!--  seccion Comentarios -->
     <section>
       <div class="d-flex justify-content-center bg-dark align-self-center">
-        <figure class="figure" >
+        <figure class="figure">
           <img
             src="assets/img/contacto.png"
             class="figure-img img-fluid rounded p-2 shadow-0"
             alt="Taking up Water with a Spoon"
             width="700"
-            
           />
-          
         </figure>
-        
+
         <div class="d-flex flex-column mb-3 bg-dark py-5 my-5">
-          
           <h4 class="text-light">Contactanos!!</h4>
           <div class="form-outline form-white my-1">
             <input type="text" id="formNombre" class="form-control" />
@@ -301,43 +299,43 @@
           <!-- Facebook -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #3b5998;"
+            style="background-color: #3b5998"
             href="#!"
             role="button"
             ><i class="fab fa-facebook-f"></i
           ></a>
-    
+
           <!-- Twitter -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #55acee;"
+            style="background-color: #55acee"
             href="#!"
             role="button"
             ><i class="fab fa-twitter"></i
           ></a>
-    
+
           <!-- Google -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #dd4b39;"
+            style="background-color: #dd4b39"
             href="#!"
             role="button"
             ><i class="fab fa-google"></i
           ></a>
-    
+
           <!-- Instagram -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #ac2bac;"
+            style="background-color: #ac2bac"
             href="#!"
             role="button"
             ><i class="fab fa-instagram"></i
           ></a>
-    
+
           <!-- Linkedin -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #0082ca;"
+            style="background-color: #0082ca"
             href="#!"
             role="button"
             ><i class="fab fa-linkedin-in"></i
@@ -345,7 +343,7 @@
           <!-- Github -->
           <a
             class="btn btn-primary btn-floating m-1"
-            style="background-color: #333333;"
+            style="background-color: #333333"
             href="#!"
             role="button"
             ><i class="fab fa-github"></i
@@ -354,9 +352,12 @@
         <!-- Section: Social media -->
       </div>
       <!-- Grid container -->
-    
+
       <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(37, 34, 34, 0.2);">
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(37, 34, 34, 0.2)"
+      >
         © 2020 Copyright:
         <a class="text-white" href="·">MDBootstrap.com</a>
       </div>
